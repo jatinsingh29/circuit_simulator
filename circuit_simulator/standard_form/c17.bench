@@ -1,0 +1,21 @@
+# c17 in Standard BENCH Format
+# 5 inputs
+# 2 outputs  
+# 0 inverter
+# 6 gates ( 6 NANDs )
+
+INPUT(1)
+INPUT(2)
+INPUT(3)
+INPUT(6)
+INPUT(7)
+
+OUTPUT(22)
+OUTPUT(23)
+
+NAND(10, 1, 3)
+NAND(11, 3, 6)
+NAND(16, 2, 11)
+NAND(19, 11, 7)
+NAND(22, 10, 16)
+NAND(23, 16, 19)
