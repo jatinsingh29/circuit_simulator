@@ -1,5 +1,3 @@
-Here’s a clean **README.md** in Markdown form for your repo:
-
 ```markdown
 # 🔌 Circuit Simulator
 
